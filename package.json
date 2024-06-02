@@ -1,0 +1,62 @@
+{
+	"name": "markuplint-ai-packages",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"all": "run-s up lint clean build test site:up pg:up",
+		"build": "lerna run build",
+		"clean": "lerna run clean",
+		"test": "vitest run",
+		"lint": "run-p lint:*",
+		"lint:eslint": "eslint --fix \"{*,packages/**/*}.{ts,js,cjs,mjs}\"",
+		"lint:prettier": "prettier --write \"./{*,packages/**/*}.{ts,js,cjs,mjs,json,md,yaml}\" --log-level warn",
+		"lint:spellcheck": "cspell --no-progress --show-suggestions \"**\"",
+		"release": "lerna publish --exact --conventional-commits --conventional-graduate",
+		"release:next": "lerna publish --dist-tag next --exact --force-publish --conventional-commits --conventional-prerelease --preid alpha",
+		"release:canary": "lerna publish --preid dev --canary --exact --force-publish",
+		"prerelease": "run-s build test",
+		"commit": "cz",
+		"co": "cz"
+	},
+	"lint-staged": {
+		"./{*,**/*}.{json,yaml,yml,md}": [
+			"prettier --write"
+		],
+		"./{*,packages/**/*}.{ts,js,cjs,mjs}": [
+			"eslint --fix",
+			"prettier --write"
+		],
+		".github/workflows/*.yml": [
+			"actionlint"
+		],
+		"**": [
+			"cspell --no-must-find-files --no-progress --show-suggestions"
+		]
+	},
+	"workspaces": [
+		"packages/@markuplint/*",
+		"packages/@markuplint-experimental/*"
+	],
+	"devDependencies": {
+		"@commitlint/cli": "19.3.0",
+		"@commitlint/config-conventional": "19.2.2",
+		"@commitlint/config-lerna-scopes": "19.0.0",
+		"@markuplint-dev/eslint-config": "1.0.0-alpha.2",
+		"@markuplint-dev/prettier-config": "1.0.0-alpha.2",
+		"@markuplint-dev/tsconfig": "1.0.0-alpha.2",
+		"commitizen": "4.3.0",
+		"cspell": "8.8.3",
+		"cz-conventional-changelog": "3.3.0",
+		"husky": "9.0.11",
+		"lerna": "8.1.3",
+		"lint-staged": "15.2.5",
+		"npm-run-all2": "6.2.0",
+		"typescript": "5.4.5",
+		"vitest": "1.6.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}

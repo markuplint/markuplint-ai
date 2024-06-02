@@ -1,0 +1,11 @@
+{
+	"lerna": "7.0.1",
+	"version": "0.1.0-alpha.0",
+	"npmClient": "yarn",
+	"packages": ["packages/@markuplint/*", "packages/@markuplint-experimental/*"],
+	"command": {
+		"version": {
+			"message": "chore(release): publish %s"
+		}
+	}
+}

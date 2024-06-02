@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+	"version": "0.2",
+	"allowCompoundWords": true,
+	"ignorePaths": ["cspell.json", ".github/ISSUE_TEMPLATE/*"],
+	"dictionaries": [
+		"css",
+		"en-gb",
+		"en_US",
+		"html",
+		"html-symbol-entities",
+		"node",
+		"npm",
+		"softwareTerms",
+		"typescript",
+		"vue"
+	],
+	"language": "en,en-GB,en-US",
+	"useGitignore": true,
+	"words": [
+		"fukuda",
+		"hideyuki",
+		"hirao",
+		"markuplint",
+		"miita",
+		"okuto",
+		"openai",
+		"oyama",
+		"preid",
+		"saito",
+		"shamokit",
+		"velc",
+		"yasuo",
+		"yusuke"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"extends": "@markuplint-dev/eslint-config",
+	"ignorePatterns": ["!.*", "**/lib/**"],
+	"overrides": [
+		{
+			"files": [".*"],
+			"rules": {
+				"import/no-default-export": 0
+			}
+		}
+	]
+}

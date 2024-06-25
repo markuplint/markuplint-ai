@@ -901,10 +901,10 @@
   dependencies:
     prettier "3.2.5"
 
-"@markuplint-dev/tsconfig@1.0.0-alpha.2":
-  version "1.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@markuplint-dev/tsconfig/-/tsconfig-1.0.0-alpha.2.tgz#8c8e7e42f9b71e2563e68caf8eb7db1c7221ea8d"
-  integrity sha512-TlOi9rJod+YBFlnfRaVMZnoqQPjnxbYnG37sTDxxG9TY1Bd9EC1mzPPC33R/6DXtforVeAixLx8m1Zal7C8suQ==
+"@markuplint-dev/tsconfig@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@markuplint-dev/tsconfig/-/tsconfig-1.0.1.tgz#5300d20c8e5ac2e0ce751a3b03253920c9362911"
+  integrity sha512-6WjSYz/TAjsCk5xo/Z+KVdgSw+pc5YMA7VAB/itZPkX2JxrY9hgPJCp9QqkVQItM+2ASo0WnrEUobVEnfu78Fw==
 
 "@markuplint/cli-utils@4.4.2-alpha.1":
   version "4.4.2-alpha.1"

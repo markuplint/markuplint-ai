@@ -894,10 +894,10 @@
     eslint-plugin-sort-class-members "1.20.0"
     eslint-plugin-unicorn "51.0.1"
 
-"@markuplint-dev/prettier-config@1.0.0-alpha.2":
-  version "1.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@markuplint-dev/prettier-config/-/prettier-config-1.0.0-alpha.2.tgz#40f84546a8473831940f1dc272117af6ec6f700f"
-  integrity sha512-89y3Xx7QDwSFgEhsrJMWZP0G2tCOYEBJ/SrqzxcEh2OLYxUtulV+caXo+LlFReqgl33QlECd6Cl6VFYMvnGyNA==
+"@markuplint-dev/prettier-config@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@markuplint-dev/prettier-config/-/prettier-config-1.0.1.tgz#41fc5dc9c9a46c998718eb13ae789f93d8f4a827"
+  integrity sha512-27+a8q2s7xftPrCR/pghlFJz0V6FUMtl8wsqMipsVr54YhxwMT039M4p400/FRHDbhparH8XV3bJ+guQFYjaMA==
   dependencies:
     prettier "3.2.5"
 

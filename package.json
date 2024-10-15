@@ -43,7 +43,7 @@
 		"@commitlint/config-lerna-scopes": "19.0.0",
 		"@markuplint-dev/eslint-config": "1.0.0",
 		"@markuplint-dev/prettier-config": "1.0.0-alpha.2",
-		"@markuplint-dev/tsconfig": "1.0.0-alpha.2",
+		"@markuplint-dev/tsconfig": "1.0.5",
 		"commitizen": "4.3.0",
 		"cspell": "8.8.4",
 		"cz-conventional-changelog": "3.3.0",

@@ -894,12 +894,12 @@
     eslint-plugin-sort-class-members "1.20.0"
     eslint-plugin-unicorn "51.0.1"
 
-"@markuplint-dev/prettier-config@1.0.0-alpha.2":
-  version "1.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@markuplint-dev/prettier-config/-/prettier-config-1.0.0-alpha.2.tgz#40f84546a8473831940f1dc272117af6ec6f700f"
-  integrity sha512-89y3Xx7QDwSFgEhsrJMWZP0G2tCOYEBJ/SrqzxcEh2OLYxUtulV+caXo+LlFReqgl33QlECd6Cl6VFYMvnGyNA==
+"@markuplint-dev/prettier-config@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@markuplint-dev/prettier-config/-/prettier-config-1.0.5.tgz#b7d66b121ec3bebfa4c0004b250143040c9998c3"
+  integrity sha512-DmclqwlLFxTVmoyRMW/1Es2/ZaXEESwiEHNOuFBdVUNBc7bO3empCXPIsGkTR/7aV1hHtXo/WaCa2TDhkxAOnw==
   dependencies:
-    prettier "3.2.5"
+    prettier "3.3.3"
 
 "@markuplint-dev/tsconfig@1.0.0-alpha.2":
   version "1.0.0-alpha.2"
@@ -6827,10 +6827,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier@3.2.5:
-  version "3.2.5"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-3.2.5.tgz"
-  integrity sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==
+prettier@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.3.tgz#30c54fe0be0d8d12e6ae61dbb10109ea00d53105"
+  integrity sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
 
 pretty-format@^29.7.0:
   version "29.7.0"

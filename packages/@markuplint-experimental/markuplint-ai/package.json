@@ -22,7 +22,7 @@
 		"@markuplint/ml-core": "4.8.1-alpha.1",
 		"@markuplint-experimental/accessibility-tree": "0.1.0-alpha.0",
 		"dotenv": "16.4.5",
-		"openai": "4.49.1"
+		"openai": "4.68.4"
 	},
 	"devDependencies": {
 		"markuplint": "4.9.1-alpha.1"
